@@ -1,0 +1,40 @@
+<sinkSources>
+	<category id="NO_CATEGORY">
+		<method signature="&lt;android.widget.RelativeLayout: void addView(android.view.View,Android.view.ViewGroup)&gt;">
+			<base type="RelativeLayout">
+				<accessPath isSource="false" isSink="true" />
+			</base>
+			<return type="void">
+				<accessPath isSource="true" isSink="false" />
+			</return>
+			<param index="0" type="android.view.View">
+				<accessPath isSource="false" isSink="true" />
+			</param>
+			<param index="1" type="android.view.ViewGroup">
+				<accessPath isSource="false" isSink="true" />
+			</param>
+		</method>
+    <method signature="&lt;java.net.URL: java.net.URLConnection openConnection()&gt;">
+      <base type="java.net.URL">
+        <accessPath isSource="true" isSink="false" />
+      </base>
+      <return type="java.net.URLConnection">
+        <accessPath isSource="true" isSink="false" />
+      </return>
+    </method>
+		<method signature="&lt;java.net.URLConnection: void setRequestProperty(java.lang.String,java.lang.String)&gt;">
+			<base type="java.net.URLConnection">
+				<accessPath isSource="false" isSink="true" />
+			</base>
+			<return type="void">
+        <accessPath isSource="true" isSink="false" />
+      </return>
+			<param index="0" type="java.lang.String">
+				<accessPath isSource="false" isSink="true" />
+			</param>
+			<param index="1" type="java.lang.String">
+				<accessPath isSource="false" isSink="true" />
+			</param>
+		</method>
+	</category>
+</sinkSources>

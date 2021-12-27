@@ -1,0 +1,257 @@
+D:\apps\Anaconda3\envs\tensorflow\python.exe F:/repos/flowcog/project/FlowCog/FlowCog-NLP/flowcog-nlp/train.py ./data/gathered.pd ./training_config.json
+CRITICAL:root:sequence length is 3000
+INFO:root:x_train: 7419, x_dev: 825, x_test: 917
+INFO:root:y_train: 7419, y_dev: 825, y_test: 917
+2018-12-01 06:41:29.079842: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-12-01 06:41:29.347783: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1392] Found device 0 with properties:
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.721
+pciBusID: 0000:01:00.0
+totalMemory: 11.00GiB freeMemory: 9.08GiB
+2018-12-01 06:41:29.348114: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1471] Adding visible gpu devices: 0
+2018-12-01 06:41:29.943819: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-01 06:41:29.944023: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:958]      0
+2018-12-01 06:41:29.944153: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:971] 0:   N
+2018-12-01 06:41:29.944384: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8787 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From F:\repos\flowcog\project\FlowCog\FlowCog-NLP\flowcog-nlp\text_cnn_rnn.py:89: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See @{tf.nn.softmax_cross_entropy_with_logits_v2}.
+
+WARNING:tensorflow:From F:\repos\flowcog\project\FlowCog\FlowCog-NLP\flowcog-nlp\text_cnn_rnn.py:89: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See @{tf.nn.softmax_cross_entropy_with_logits_v2}.
+
+INFO:root:Accuracy on dev set: 0.15272727272727274
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-100 at step 100
+CRITICAL:root:Best accuracy 0.15272727272727274 at step 100
+INFO:root:Accuracy on dev set: 0.8533333333333334
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-200 at step 200
+CRITICAL:root:Best accuracy 0.8533333333333334 at step 200
+INFO:root:Accuracy on dev set: 0.8690909090909091
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-300 at step 300
+CRITICAL:root:Best accuracy 0.8690909090909091 at step 300
+INFO:root:Accuracy on dev set: 0.8957575757575758
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-400 at step 400
+CRITICAL:root:Best accuracy 0.8957575757575758 at step 400
+INFO:root:Accuracy on dev set: 0.896969696969697
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-500 at step 500
+CRITICAL:root:Best accuracy 0.896969696969697 at step 500
+INFO:root:Accuracy on dev set: 0.8981818181818182
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-600 at step 600
+CRITICAL:root:Best accuracy 0.8981818181818182 at step 600
+INFO:root:Accuracy on dev set: 0.9030303030303031
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-700 at step 700
+CRITICAL:root:Best accuracy 0.9030303030303031 at step 700
+INFO:root:Accuracy on dev set: 0.8836363636363637
+INFO:root:Accuracy on dev set: 0.8836363636363637
+INFO:root:Accuracy on dev set: 0.8545454545454545
+INFO:root:Accuracy on dev set: 0.9006060606060606
+INFO:root:Accuracy on dev set: 0.9018181818181819
+INFO:root:Accuracy on dev set: 0.8496969696969697
+INFO:root:Accuracy on dev set: 0.9006060606060606
+INFO:root:Accuracy on dev set: 0.9006060606060606
+INFO:root:Accuracy on dev set: 0.8945454545454545
+INFO:root:Accuracy on dev set: 0.9006060606060606
+INFO:root:Accuracy on dev set: 0.8763636363636363
+INFO:root:Accuracy on dev set: 0.8981818181818182
+INFO:root:Accuracy on dev set: 0.9078787878787878
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-2000 at step 2000
+CRITICAL:root:Best accuracy 0.9078787878787878 at step 2000
+INFO:root:Accuracy on dev set: 0.9042424242424243
+INFO:root:Accuracy on dev set: 0.9090909090909091
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-2200 at step 2200
+CRITICAL:root:Best accuracy 0.9090909090909091 at step 2200
+INFO:root:Accuracy on dev set: 0.9018181818181819
+INFO:root:Accuracy on dev set: 0.9042424242424243
+INFO:root:Accuracy on dev set: 0.9127272727272727
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-2500 at step 2500
+CRITICAL:root:Best accuracy 0.9127272727272727 at step 2500
+INFO:root:Accuracy on dev set: 0.9054545454545454
+INFO:root:Accuracy on dev set: 0.9066666666666666
+INFO:root:Accuracy on dev set: 0.9139393939393939
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-2800 at step 2800
+CRITICAL:root:Best accuracy 0.9139393939393939 at step 2800
+INFO:root:Accuracy on dev set: 0.9187878787878788
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-2900 at step 2900
+CRITICAL:root:Best accuracy 0.9187878787878788 at step 2900
+INFO:root:Accuracy on dev set: 0.9030303030303031
+INFO:root:Accuracy on dev set: 0.8909090909090909
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.9103030303030303
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9018181818181819
+INFO:root:Accuracy on dev set: 0.8981818181818182
+INFO:root:Accuracy on dev set: 0.9187878787878788
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-3700 at step 3700
+CRITICAL:root:Best accuracy 0.9187878787878788 at step 3700
+INFO:root:Accuracy on dev set: 0.8933333333333333
+INFO:root:Accuracy on dev set: 0.9042424242424243
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9042424242424243
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.9212121212121213
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-4300 at step 4300
+CRITICAL:root:Best accuracy 0.9212121212121213 at step 4300
+INFO:root:Accuracy on dev set: 0.926060606060606
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-4400 at step 4400
+CRITICAL:root:Best accuracy 0.926060606060606 at step 4400
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9321212121212121
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-4700 at step 4700
+CRITICAL:root:Best accuracy 0.9321212121212121 at step 4700
+INFO:root:Accuracy on dev set: 0.9296969696969697
+INFO:root:Accuracy on dev set: 0.9236363636363636
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9042424242424243
+INFO:root:Accuracy on dev set: 0.9224242424242424
+INFO:root:Accuracy on dev set: 0.8957575757575758
+INFO:root:Accuracy on dev set: 0.9090909090909091
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9090909090909091
+INFO:root:Accuracy on dev set: 0.9272727272727272
+INFO:root:Accuracy on dev set: 0.9054545454545454
+INFO:root:Accuracy on dev set: 0.9103030303030303
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9054545454545454
+INFO:root:Accuracy on dev set: 0.9030303030303031
+INFO:root:Accuracy on dev set: 0.9030303030303031
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.926060606060606
+INFO:root:Accuracy on dev set: 0.9066666666666666
+INFO:root:Accuracy on dev set: 0.9103030303030303
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.9103030303030303
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.9054545454545454
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9042424242424243
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9224242424242424
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.9090909090909091
+INFO:root:Accuracy on dev set: 0.9236363636363636
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9284848484848485
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.9224242424242424
+INFO:root:Accuracy on dev set: 0.9066666666666666
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9066666666666666
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.92
+INFO:root:Accuracy on dev set: 0.9212121212121213
+INFO:root:Accuracy on dev set: 0.9212121212121213
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9224242424242424
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.9224242424242424
+INFO:root:Accuracy on dev set: 0.9066666666666666
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.926060606060606
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9224242424242424
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9224242424242424
+INFO:root:Accuracy on dev set: 0.9054545454545454
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.9054545454545454
+INFO:root:Accuracy on dev set: 0.92
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9284848484848485
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.9103030303030303
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.926060606060606
+INFO:root:Accuracy on dev set: 0.9236363636363636
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9042424242424243
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.926060606060606
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.9321212121212121
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-14100 at step 14100
+CRITICAL:root:Best accuracy 0.9321212121212121 at step 14100
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9212121212121213
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9321212121212121
+CRITICAL:root:Saved model ./checkpoints_1543617689/model-14700 at step 14700
+CRITICAL:root:Best accuracy 0.9321212121212121 at step 14700
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.92
+INFO:root:Accuracy on dev set: 0.9296969696969697
+INFO:root:Accuracy on dev set: 0.9248484848484848
+INFO:root:Accuracy on dev set: 0.92
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.9236363636363636
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9139393939393939
+INFO:root:Accuracy on dev set: 0.9248484848484848
+INFO:root:Accuracy on dev set: 0.92
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9127272727272727
+INFO:root:Accuracy on dev set: 0.9066666666666666
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.9163636363636364
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.9090909090909091
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9115151515151515
+INFO:root:Accuracy on dev set: 0.92
+INFO:root:Accuracy on dev set: 0.9078787878787878
+INFO:root:Accuracy on dev set: 0.9187878787878788
+INFO:root:Accuracy on dev set: 0.9090909090909091
+INFO:root:Accuracy on dev set: 0.9103030303030303
+INFO:root:Accuracy on dev set: 0.9151515151515152
+INFO:root:Accuracy on dev set: 0.9175757575757576
+INFO:root:Accuracy on dev set: 0.8981818181818182
+CRITICAL:root:Training is complete, testing the best model on x_test and y_test
+INFO:tensorflow:Restoring parameters from ./checkpoints_1543617689/model-14700
+INFO:tensorflow:Restoring parameters from ./checkpoints_1543617689/model-14700
+CRITICAL:root:Accuracy on test set: 0.9193020719738277
+
+Process finished with exit code 0

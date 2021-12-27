@@ -1,0 +1,4 @@
+model_checkpoint_path: "best_model.ckpt"
+all_model_checkpoint_paths: "..\\checkpoints_1543769134\\model-200"
+all_model_checkpoint_paths: "..\\checkpoints_1543769134\\model-600"
+all_model_checkpoint_paths: "best_model.ckpt"

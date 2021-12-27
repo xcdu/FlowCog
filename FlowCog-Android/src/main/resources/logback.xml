@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <filter class="com.flowcog.display.LoggerFilter" />
+    <encoder>
+      <pattern>[%p][%d{yyyy-MM-dd HH:mm:ss}][%C{1}:%L] - %m%n
+      </pattern>
+    </encoder>
+  </appender>
+
+  <root level="info">
+    <appender-ref ref="STDOUT" />
+  </root>
+</configuration>
